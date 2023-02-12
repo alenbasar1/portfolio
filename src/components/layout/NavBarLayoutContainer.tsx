@@ -15,7 +15,7 @@ const NavBarLayoutContainer = ({ children, type, floating }: Props) => {
   const { classes } =
     navbarConfig[mode][type ?? "primary"][floating ? "float" : "fixed"];
 
-  return <div className={`${classes}`}>{children}</div>;
+  return <div className={classes}>{children}</div>;
 };
 
 export default NavBarLayoutContainer;
