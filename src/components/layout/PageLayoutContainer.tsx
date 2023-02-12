@@ -13,7 +13,7 @@ const PageLayoutContainer = ({ children, type, ...props }: Props) => {
 
   const { classes } = pageLayoutConfig[mode ?? "dark"]["primary"];
 
-  return <div className={`${classes}`}>{children}</div>;
+  return <div className={classes}>{children}</div>;
 };
 
 export default PageLayoutContainer;

@@ -3,11 +3,11 @@ export const navbarConfig = {
     primary: {
       float: {
         classes:
-          "h-12 bg-Onyx from-Onyx  sticky top-0 z-50 w-screen transition-all duration-500 flex items-center justify-between shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]",
+          "h-12 bg-Onyx from-Onyx  sticky top-0 z-50 transition-all duration-500 flex items-center justify-between shadow-[0_35px_60px_-15px_rgba(255,255,255,0.3)]",
       },
       fixed: {
         classes:
-          "h-12 bg-Onyx from-Onyx  sticky top-0 z-50 w-screen transition-all duration-500 flex items-center justify-between ",
+          "h-12 bg-Onyx from-Onyx  sticky top-0 z-50 transition-all duration-500 flex items-center justify-between w-full",
       },
     },
     secondary: {
@@ -22,11 +22,11 @@ export const navbarConfig = {
     primary: {
       float: {
         classes:
-          "h-12 bg-Onyx from-Onyx  sticky top-0 z-50 w-screen transition-all duration-500 flex items-center justify-between",
+          "h-14 bg-Onyx from-Onyx  sticky top-0 z-50 transition-all duration-500 flex items-center justify-between shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]",
       },
       fixed: {
         classes:
-          "h-12 bg-Onyx from-Onyx  sticky top-0 z-50 w-screen transition-all duration-500 flex items-center justify-between",
+          "h-14 bg-Onyx from-Onyx  sticky top-0 z-50 transition-all duration-500 flex items-center justify-between ",
       },
     },
     secondary: {
